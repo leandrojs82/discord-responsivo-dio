@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reprodução responsiva da página do Discord do desafio da DIO, desenvolvida somente com HTML e CSS.">
+  <title>Discord — Desafio de Responsividade DIO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Imagine um lugar...</h1>
+      <p>...onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial. Onde você e alguns amigos possam passar um tempo juntos. Um lugar que torna fácil conversar todos os dias e socializar com mais frequência.</p>
+      <div class="hero-actions">
+        <a class="button button-light" href="https://discord.com/download">Baixar para Windows</a>
+        <a class="button button-dark" href="https://discord.com/app">Abra o Discord no seu navegador</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="feature" aria-labelledby="convite-title">
+      <div class="feature-inner">
+        <picture class="feature-art">
+          <source media="(max-width: 767px)" srcset="assets/discord-servers-image.png">
+          <img src="assets/discord-servers-image-responsive.png" width="607" height="394" alt="Canais organizados por assunto, com uma conversa de um grupo de estudos no Discord">
+        </picture>
+        <div class="feature-copy">
+          <h2 id="convite-title">Crie um espaço controlado por convite onde você se sinta em casa</h2>
+          <p>Os servidores Discord são organizados em canais com assuntos para vocês colaborarem, compartilharem ou simplesmente falarem do dia sem entupir um chat geral.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature feature-muted" aria-labelledby="encontrar-title">
+      <div class="feature-inner feature-inner-reverse">
+        <picture class="feature-art">
+          <source media="(max-width: 767px)" srcset="assets/discord-channel.png">
+          <img src="assets/discord-channel-responsive.png" width="607" height="394" alt="Amigos reunidos em um canal de voz do Discord" loading="lazy">
+        </picture>
+        <div class="feature-copy">
+          <h2 id="encontrar-title">Aqui é fácil se encontrar</h2>
+          <p>Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver e entrar imediatamente, sem nem ter que fazer a chamada.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature" aria-labelledby="comunidade-title">
+      <div class="feature-inner">
+        <picture class="feature-art">
+          <source media="(max-width: 767px)" srcset="assets/discord-members.png">
+          <img src="assets/discord-members-responsive.png" width="607" height="394" alt="Perfis, cargos e permissões para organizar os membros de uma comunidade" loading="lazy">
+        </picture>
+        <div class="feature-copy">
+          <h2 id="comunidade-title">Para poucos e para muitos</h2>
+          <p>Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes especiais aos membros, monte canais privados e muito mais.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="connection feature-muted" aria-labelledby="conexao-title">
+      <div class="connection-inner">
+        <h2 id="conexao-title">Tecnologia de conexão confiável</h2>
+        <p>Voz e vídeo de baixa latência, para você conversar como se estivesse na mesma sala. Dê um joinha por vídeo, veja amigos transmitirem a jogatina do dia ou junte uma galera pra desenhar na tela compartilhada.</p>
+        <picture>
+          <source media="(max-width: 767px)" srcset="assets/discord-connection.png">
+          <img src="assets/discord-connection-responsive.png" width="784" height="508" alt="Chamada de vídeo com amigos no computador e no celular, incluindo compartilhamento de tela" loading="lazy">
+        </picture>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://discord.com/" aria-label="Página oficial do Discord">
+      <img src="assets/discord-logo.png" width="230" height="63" alt="Discord">
+    </a>
+  </footer>
+</body>
+</html>
