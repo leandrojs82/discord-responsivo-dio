@@ -2,10 +2,6 @@
 
 Reprodução dos modelos desktop e mobile do Figma usando apenas HTML5 e CSS3, sem JavaScript, bibliotecas, frameworks ou instalação.
 
-## Como abrir
-
-Extraia o ZIP e abra `index.html` no navegador. Mantenha o arquivo `styles.css` e a pasta `assets` ao lado dele. Todas as imagens e fontes estão incluídas, permitindo visualizar o projeto sem internet.
-
 ## Arquivos
 
 - `index.html`: abertura, quatro seções de conteúdo e rodapé.
